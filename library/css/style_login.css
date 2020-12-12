@@ -15,12 +15,18 @@ text-align: center;
 height: 100%;
 align-content: center;
 }
-
 .card{
-height: 370px;
+height: 450px;
 margin-top: auto;
 margin-bottom: auto;
 width: 400px;
+background-color: rgba(0,0,0,0.5) !important;
+}
+.card-creare{
+height: 500px;
+margin-top: auto;
+margin-bottom: auto;
+width: 450px;
 background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -87,4 +93,16 @@ color: white;
 
 .links a{
 margin-left: 4px;
+}
+select
+{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 83px;
+}
+.option{
+    text-align: center;
+}
+.ascuns{
+    display: none;
 }
