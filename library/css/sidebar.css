@@ -11,13 +11,15 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
-  ::marker{
-      font-size: 0%;
+  li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
   .navbar-spacer{
     background-color: grey;
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     width: 100%;
     height: 2px;
   }
