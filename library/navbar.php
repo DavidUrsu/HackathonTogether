@@ -13,12 +13,15 @@
         <div class="container" style="min-width:73.5%">
             <!-- Sidebar-->
             <div id="mySidenav" class="sidenav bg-light">
+                <!-- Buton X -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <!-- Iconita de Utilizator -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" fill="currentColor" class="bi bi-person-fill profile picture" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-                </svg>
-                DavidPasarinn
+                <div>
+                    <img src="imagini/profiles/davidpasarinn.png" width="100" height="100" class="picture"></img>
+                    <p>DavidPasarinn</p>
+                    <p>Colegiul National "Elena Cuza"</p>
+                    <p>Clasa 11D</p>
+                </div>
                 <!--Spacer-->
                 <div class="navbar-spacer">
 
@@ -80,6 +83,7 @@
                     </svg>
                     Stiri
                 </a>
+                <!--Spacer-->
                 <div class="navbar-spacer">
 
                 </div>
@@ -98,7 +102,7 @@
                     Ajutor si Asistenta
                 </a>
                 <!--Butonul de deconectare-->
-                <a href="#">
+                <a href="http://localhost/login">
                     <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-door-open-fill" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M1.5 15a.5.5 0 0 0 0 1h13a.5.5 0 0 0 0-1H13V2.5A1.5 1.5 0 0 0 11.5 1H11V.5a.5.5 0 0 0-.57-.495l-7 1A.5.5 0 0 0 3 1.5V15H1.5zM11 2v13h1V2.5a.5.5 0 0 0-.5-.5H11zm-2.5 8c-.276 0-.5-.448-.5-1s.224-1 .5-1 .5.448.5 1-.224 1-.5 1z" />
                     </svg>
@@ -114,7 +118,50 @@
             </div>
             <!-- Notification -->
             <div id="myNotification" class="sideNotification bg-light">
+                <!-- Buton X -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav2()">&times;</a>
+                <a href="#">Notificarile mele</a>
+                <!--Spacer-->
+                <div class="notification-spacer">
+
+                </div>
+                <!--Notificari-->
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-card-image notificari" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.
+                </div>
+                <div class="spacer">
+
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-card-image notificari" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.
+                </div>
+                <div class="spacer">
+
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-card-image notificari" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.
+                </div>
+                <div class="spacer">
+
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-card-image notificari" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M14.5 3h-13a.5.5 0 0 0-.5.5v9c0 .013 0 .027.002.04V12l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094L15 9.499V3.5a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13zm4.502 3.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z" />
+                    </svg>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut lab.
+                </div>
+                <div class="spacer">
+
+                </div>
             </div>
             <!-- Butonul care deschide notification -->
             <button class="btn text-left" style="margin-left:0px" onclick="openNav2();closeNav()"><i class="fa fa-bell fa-2x"></i></button>
@@ -123,8 +170,4 @@
         </div>
 
     </nav>
-
-    <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
-    <div id="main">
-    </div>
 </body>

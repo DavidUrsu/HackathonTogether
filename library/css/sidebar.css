@@ -23,14 +23,41 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
+  .picture{
+      float:left;
+      margin-right: 15px;
+  }
   li {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+  .spacer{
+    background-color: grey;
+    margin-top: 30px;
+    margin-left: 10%;
+    width: 80%;
+    height: 2px;
+    align-items:center;
+  }
+  .notificari{
+      float:left;
+      margin-right:15px;
+      margin-left:10px;
+  }
+  .scris-notificari{
+      margin-left:100px;
+  }
   .navbar-spacer{
     background-color: grey;
     margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 2px;
+  }
+  .notification-spacer{
+    background-color: grey;
+    margin-top: -10px;
     margin-bottom: 30px;
     width: 100%;
     height: 2px;
@@ -47,8 +74,9 @@
     display: block;
     transition: 0.3s;
   }
+
   .sideNotification a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 32px 8px;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
@@ -57,6 +85,9 @@
   }
   
   /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color:black;
+  }
   .sidenav a:hover {
     color:black;
   }
@@ -77,14 +108,16 @@
     margin-right: 50px;
   }
   
-  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-  #main {
-    transition: margin-left .5s;
-    padding: 20px;
-  }
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+    .sideNotification{padding-top: 15px;}
+    .sideNotification a{font-size: 18px;}
   }
+  .text{
+    margin-left: 30px;
+    font-family: Montserrat;
+    font-size: large;
+}
