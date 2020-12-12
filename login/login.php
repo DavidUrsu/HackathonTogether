@@ -17,10 +17,10 @@
             $_SESSION["institutie"]=$res[6];
             $_SESSION["clasa"]=$res[4];
             $_SESSION["litera"]=$res[5];
-            header("Location: http://$urlRoot/");
+            header("Location: $urlRoot");
         }
         else{
-            header("Location: http://$urlRoot/login/index.php");
+            header("Location: $urlRoot/login/index.php");
         }
     }
 
