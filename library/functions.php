@@ -1,5 +1,5 @@
 <?php
 
-$urlRoot = "localhost";
+$urlRoot = "http://localhost";
 
 ?>
