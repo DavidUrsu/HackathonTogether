@@ -26,7 +26,14 @@
                         </ul>
                     </div>
                 </li>
-                <a href="#">Services</a>
+                <li class="nav-item">
+                    <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse" data-target="#submenu1"><span class="d-none d-sm-inline">Topicuri</span></a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span>Informatica</span></a></li>
+                        </ul>
+                    </div>
+                </li>
                 <a href="#">Clients</a>
                 <a href="#">Contact</a>
             </div>

@@ -12,12 +12,12 @@
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
   ::marker{
-      font-size: 0px;
+      font-size: 0%;
   }
   .navbar-spacer{
     background-color: grey;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     width: 100%;
     height: 2px;
   }
