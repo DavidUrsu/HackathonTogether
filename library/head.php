@@ -1,5 +1,3 @@
-<?php  include'functions.php'; ?>
-
 <head>
     <title>Together | Platformă</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,7 +16,7 @@
         print("
             <link rel='stylesheet' href='$urlRoot/library/css/style.css'>
             <link rel='stylesheet' href='$urlRoot/library/css/sidebar.css'>
-            <script src='$urlRoot/library/javascript/sidebar.js'>
+            <script src='$urlRoot/library/javascript/sidebar.js'></script>
         ")
     ?>
 </head>
