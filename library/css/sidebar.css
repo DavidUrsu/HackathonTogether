@@ -11,6 +11,9 @@
     padding-top: 60px; /* Place content 60px from the top */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
   }
+  ::marker{
+      font-size: 0px;
+  }
   .navbar-spacer{
     background-color: grey;
     margin-top: 30px;

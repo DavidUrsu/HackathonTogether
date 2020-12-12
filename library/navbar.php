@@ -18,23 +18,19 @@
                 <div class="navbar-spacer">
 
                 </div>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                        Grupuri
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Clasa 11 D</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">CNEC</a>
+                <li class="nav-item">
+                    <a class="nav-link collapsed text-truncate" href="#submenu1" data-toggle="collapse" data-target="#submenu1"><span class="d-none d-sm-inline">Grupuri</span></a>
+                    <div class="collapse" id="submenu1" aria-expanded="false">
+                        <ul class="flex-column pl-2 nav">
+                            <li class="nav-item"><a class="nav-link py-0" href="#"><span>Clasa11</span></a></li>
+                        </ul>
                     </div>
                 </li>
                 <a href="#">Services</a>
                 <a href="#">Clients</a>
                 <a href="#">Contact</a>
             </div>
-        </div>
-
-
+        
         <!-- Use any element to open the sidenav -->
         <button class="btn md-auto" onclick="openNav()"><i class="fa fa-bars fa-2x"></i></button>
         <div class="mx-auto">
@@ -42,6 +38,7 @@
         </div>
         <button class="btn text-left" style="margin-left:0px"><i class="fa fa-bell fa-2x"></i></button>
 
+        </div>
         </div>
 
     </nav>
