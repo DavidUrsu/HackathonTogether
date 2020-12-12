@@ -1,0 +1,32 @@
+body{
+    background-color: #000000;
+    font-family: Montserrat;
+}
+
+.post-container{
+    max-width: 500px;
+    min-height: 300px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.account-info{
+    min-height: 50px;
+    display: block;
+}
+
+.account-info{
+    display: inline;
+    font-size: 20px;
+}
+
+.account-post-info{
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    position: absolute;
+    overflow-wrap: break-word;
+    word-wrap:break-word;
+    text-align: justify;
+}
