@@ -1,5 +1,4 @@
-<?php  include'functions.php'; 
-?>
+<?php  include'functions.php'; ?>
 
 <head>
     <title>Together | Platformă</title>
@@ -18,6 +17,8 @@
         global $urlRoot;
         print("
             <link rel='stylesheet' href='$urlRoot/library/css/style.css'>
+            <link rel='stylesheet' href='$urlRoot/library/css/sidebar.css'>
+            <script src='$urlRoot/library/javascript/sidebar.js'>
         ")
     ?>
 </head>
